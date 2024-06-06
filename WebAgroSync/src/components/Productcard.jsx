@@ -1,8 +1,6 @@
 // ProductCard.js
 import React from 'react';
-import 'C:/Users/gabri/OneDrive/Documentos/UTEC 2024-1/pi 3/Front_end/Front_end_Pi3/agrosync/src/styles/productcard.css';
-import productImage from 'C:/Users/gabri/OneDrive/Documentos/UTEC 2024-1/pi 3/Front_end/Front_end_Pi3/agrosync/src/assets/strwberry.jpg'; // Asegúrate de que la imagen esté en la carpeta correcta
-import Description from './Description';
+import '../styles/productcard.css';
 
 function Productcard ({ name, price, image}){
     return (
